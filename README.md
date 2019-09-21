@@ -1,9 +1,8 @@
 # PortSimulation
 
-The purpose of the project is to simulate the operation of a port by simultaneously running processes. There are three types 
+The purpose of this application is to simulate the operation of a port by simultaneously running processes. There are three types 
 of processes: 1) vessels that want to stay for a finite amount of time in the port, 2) port master that maintains the safe
-operation of the port and 3) port monitor that provides port status. It also provides statistics with a user-defined periodicity
-of interest such as e.g. total port revenue so far, average standby and income per category and overall for all vessels.
+operation of the port and 3) port monitor that provides the port status. It also provides statistics, with a user-defined periodicity, for the total port income so far, average standby time and income per category and overall for all vessels.
 The above types of processes are indepedent programs that can run simultaneously and implement collaboratively
 what's happening in the port area.
 
